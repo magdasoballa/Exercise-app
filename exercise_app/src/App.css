@@ -17,7 +17,7 @@ body {
     align-items: center;
     width: 600px;
     max-width: calc(100% - 20px);
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .header {
@@ -25,4 +25,45 @@ body {
     font-size: 32px;
     color: #42383B;
     word-spacing: 15px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+    outline-color: #42383B;
+    font-size: 14px;
+}
+
+button {
+    background-color: #42383B;
+    color: #fff;
+    border: 0;
+    padding: 0 20px;
+    border-radius: 0 5px 5px 0;
+    font-size: 14px;
+}
+
+.list {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list > li {
+    width: 30%;
+    margin-top: 10px ;
+    display:flex;
+    justify-content: space-between;
+
 }

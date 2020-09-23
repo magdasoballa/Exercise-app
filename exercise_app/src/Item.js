@@ -2,6 +2,10 @@ import React from 'react';
 
 
 
-export const Item = () => {
-    return <p>Item</p>
+export const Item = (props) => {
+    return (
+        <>
+            {props.title}
+        </>
+    )
 }
